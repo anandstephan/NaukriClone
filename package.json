@@ -1,0 +1,23 @@
+{
+  "name": "naukriClone",
+  "version": "1.0.0",
+  "description": "Basic Crud Application Using Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Anand Stephan",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
